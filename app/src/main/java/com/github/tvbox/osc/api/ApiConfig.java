@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://0a.fit/945KM");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://agit.ai/945KM/TVBox/src/branch/master/1.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
